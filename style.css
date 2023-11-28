@@ -1,0 +1,254 @@
+nav {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  font-family: sans-serif;
+  position: fixed;
+  border: 1px solid lightgrey;
+  top: 0%;
+  width: 100%;
+  height: 50px;
+  left: 0%;
+  z-index: 1000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: lightgray;
+}
+
+.LOGO {
+  margin-left: 10px;
+  cursor: not-allowed;
+  text-shadow: 5px 5px 5px black;
+  font-size: 24px;
+  color: red;
+}
+
+.barranavegacion {
+  padding: 10px;
+  
+}
+
+.texto{
+font-size: 16px;
+color: #333333;
+margin: 10px;
+display: inline;
+transition: transform 0.5s ease;
+}
+.texto :hover{
+font-size: 18px;
+transform: scale(1.1);
+font-size: 1,1em;
+color: red;
+cursor: pointer;
+transition: color 0.5s ease-in-out;
+}
+
+ul{
+  list-style: none;
+  text-align: center;
+}
+ul li{
+  display: inline;
+  margin-right: 20px;
+}
+ul li a{
+  color: #333333;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.5s ease-in-out;
+  transition: transform 0.3s ease;
+}
+ul li a:hover{
+  color: red;
+  cursor: pointer;
+  font-size: 18px;
+  transform: scale(1.1);
+}
+.ss{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: black;
+  font-size: 24px;
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+}
+.sss{
+  color: yellow;
+}
+.ssssx{
+  font-size: 16px;
+  text-decoration: none;
+  color: lightgray;
+}
+.ssss{
+  color: lightgray;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+  font-size: 18px;
+}
+.ssss:hover{
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+  color: lightgray;
+  transform: scale(1.1);
+}
+.sxs{
+  color: #333333;
+  font-family: Arial;
+  
+}
+.cuadro1{
+  position: relative;
+  display: flex;
+  height: 850px;
+  left: 0%;
+  width: 100%;
+  border: 1px solid lightgrey;
+  box-shadow: 5px 5px 5px lightgray;
+  align-items: center;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: ;
+  background-color: #333333;
+  justify-content: space-between;
+}
+.foto{
+  display: flex;
+  transition:transform 0,5s ease;
+}
+
+.carrusel {
+  position: relative;
+  display: flex;
+  border-radius: 10px;
+  padding: 10px;
+  align-items: center;
+  overflow:hidden;
+  width: 100%;
+  height: 90%;
+  justify-content: center;
+  height: 100vh;
+}
+
+.imagenes {
+  
+  padding: 50px;
+  display: flex;
+  overflow: hidden;
+}
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+img:hover{
+  cursor: pointer;
+  width: 210px;
+  height: 210px;
+  border-radius: 10px;
+  transform: scale(1.1);
+}
+.anterior,
+.siguiente {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.anterior {
+  left: 0;
+}
+
+.siguiente {
+  right: 0;
+}
+td{
+  width: 120px;
+  height: 120px;
+}
+.cuadro2{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0%;
+  display: flex;
+  height: 250px;
+  flex-direction: row;
+  border: 1px solid black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:url(https://png.pngtree.com/background/20210714/original/pngtree-white-technology-background-clean-style-picture-image_1209726.jpg);
+}
+.cuadro3{
+  display: flex;
+  flex-direction: row;
+}
+
+.new1{
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  margin:10px;
+  width: 50%;
+  height: 210px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-shadow: 5px 5px 5px lightgray;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8HM4Wzy1mHkL7q4yCXIaePmT5aRbvAuJnsA&usqp=CAU);
+}
+.foto{
+  width: 100%;
+  height: 100%;
+}
+.new2{
+  text-align: center;
+  align-items: center;
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 200%;
+  height: 270px;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  box-shadow: 5px 5px 5px lightgray;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:url(https://png.pngtree.com/background/20210714/original/pngtree-white-technology-background-clean-style-picture-image_1209726.jpg);
+}
+p{
+  text-align: center;
+  font-family: sans-serif;
+}
+.pie{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNQbaod5AS4wrFZvOp1jh52TOI-uyLS91RjiKoo8j4IUT8O42xNQpuQ6527hRcDAW45A&usqp=CAU);
+  border: 1px solid gray;
+  width: 100%;
+  height: 200px;
+  left: 0%;
+  overflow:hidden;
+  text-overflow: ellipsis;
+}
